@@ -16,13 +16,13 @@ function Main() {
   // mock data 가져오기
 
   async function request() {
-    const res = await fetch('http://10.58.3.145:8000/products/main');
+    const res = await fetch('http://35.90.169.104:8000/products/main');
     const result = await res.json();
     setValues(result.premium);
   }
 
   async function newRequest() {
-    const res = await fetch('http://10.58.3.145:8000/products/main');
+    const res = await fetch('http://35.90.169.104:8000/products/main');
     const result = await res.json();
     setNewValue(result.fresh_product);
   }
