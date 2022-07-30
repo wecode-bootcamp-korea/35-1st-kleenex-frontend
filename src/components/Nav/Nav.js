@@ -141,7 +141,9 @@ const Nav = () => {
                 {localStorage.Token ? (
                   <div>
                     <span>
-                      <li onClick={logOut}>로그아웃</li>
+                      <li onClick={logOut} className="out">
+                        로그아웃
+                      </li>
                       <li>&nbsp;|&nbsp; </li>
                     </span>
                     {RIGHT_TOP_DATA_LOGIN.map(data => {
