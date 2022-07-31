@@ -74,7 +74,7 @@
 
 ### **SignUp**
 
-<img src ="https://velog.velcdn.com/images/enejwk789/post/990ee14e-2e07-4105-9e14-1219189697ba/image.gif
+<img src ="public\images\README\signup.gif
 ">
 
 ### **Login**
