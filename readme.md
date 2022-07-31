@@ -30,8 +30,11 @@
 ## 협업 툴
 
 - Trello
+
   <img src = "public\images\README\Trello.JPG">
+
 - Notion
+
   <img src = "public\images\README\Notion.JPG">
 
 ## 구현 목표
