@@ -74,7 +74,7 @@
 
 ### **SignUp**
 
-<img src ="[https://github.com/wecode-bootcamp-korea/35-1st-kleenex-frontend/issues/22#issue-1323435875](https://user-images.githubusercontent.com/105600985/182024232-baeb7db4-7827-48dc-8252-93b7b18729a4.gif)
+<img src ="https://github.com/wecode-bootcamp-korea/35-1st-kleenex-frontend/issues/22#issue-1323435875](https://user-images.githubusercontent.com/105600985/182024232-baeb7db4-7827-48dc-8252-93b7b18729a4.gif)
 ">
 
 ### **Login**
