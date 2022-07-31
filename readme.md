@@ -74,7 +74,8 @@
 
 ### **SignUp**
 
-<img src ="https://user-images.githubusercontent.com/105600985/182024232-baeb7db4-7827-48dc-8252-93b7b18729a4.gif">
+![signup](https://user-images.githubusercontent.com/105600985/182024817-97ec7b3b-3a3c-4fca-8ec0-404bedc54040.gif)
+
 
 ### **Login**
 
