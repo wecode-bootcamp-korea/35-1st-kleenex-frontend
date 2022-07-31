@@ -3,7 +3,7 @@
 - 팀 명 : 크리넥스
 - 팀 원: [최원익(PM)](https://github.com/Yelihi), [김영수](https://github.com/youngsoon12), [오창훈](https://github.com/och-changhoon), [김도연](https://github.com/kdylsky), [안상현](https://github.com/AhnSang0915)
 
-   <img src = "https://user-images.githubusercontent.com/105600985/182024232-baeb7db4-7827-48dc-8252-93b7b18729a4.gif">
+   <img src = "public\images\README\ReadMeLogo.JPG">
   <br>
 
 ## 프로젝트 소개
