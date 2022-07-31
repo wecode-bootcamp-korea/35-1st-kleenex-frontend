@@ -79,7 +79,5 @@
 
 ### **Login**
 
-<img src ="https://little-polish-7ff.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fffada64a-8f35-43cd-9d43-aacef6419609%2F%25E1%2584%2590%25E1%2585%25A6%25E1%2584%2585%25E1%2585%25A1%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2589%25E1%2585%25A1_login.gif?table=block&id=afe7378d-d31c-4904-886d-d2687434c35f&spaceId=3603a399-ae9e-47d0-9870-7786d6f3f89b&userId=&cache=v2
-">
 
 ### **Cart**
