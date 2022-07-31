@@ -71,7 +71,7 @@
 
 ### **SignUp**
 
-<img src ="https://little-polish-7ff.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fec47391f-e732-49c3-a46c-477e4a2d0576%2FUntitled.png?table=block&id=626e6905-d096-4ebb-8a83-794255e10c13&spaceId=3603a399-ae9e-47d0-9870-7786d6f3f89b&width=2000&userId=&cache=v2
+<img src ="https://velog.velcdn.com/images/enejwk789/post/990ee14e-2e07-4105-9e14-1219189697ba/image.gif
 ">
 
 ### **Login**
