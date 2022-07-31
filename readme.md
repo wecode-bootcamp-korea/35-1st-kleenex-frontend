@@ -3,12 +3,12 @@
 - 팀 명 : 크리넥스
 - 팀 원: [최원익(PM)](https://github.com/Yelihi), [김영수](https://github.com/youngsoon12), [오창훈](https://github.com/och-changhoon), [김도연](https://github.com/kdylsky), [안상현](https://github.com/AhnSang0915)
 
-  ![image](public\images\README_main.JPG)
+   <img src = "public\images\README\ReadMeLogo.JPG">
   <br>
 
 ## 프로젝트 소개
 
-- 국내 커피 원두 및 식품 커머스 사이트 [TERAROSA](https://terarosa.com/shopinfo/about.html) 클론 프로젝트 입니다.
+- 커피 원두 및 식품 커머스 사이트 [TERAROSA](https://terarosa.com/shopinfo/about.html) 클론 프로젝트 입니다.
 - 외부 라이브러리를 사용하지 않고 기초 문법과 기초 태그만을 활용하여 기능을 구현하였습니다.
 - 개발은 초기 세팅부터 모두 직접 구현하였으며, React를 사용하여 React-page로 React 학습하는 것을 목표로 두고 하였습니다.
 - 기존 테라로사 사이트에 없는 검색 기능과 상품 목록페이지 내 필터기능이 있으면 좋을 것 같아 추가로 구현 하기로 했습니다.
