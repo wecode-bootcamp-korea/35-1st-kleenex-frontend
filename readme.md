@@ -78,6 +78,7 @@
 
 
 ### **Login**
+![팀_크리넥스_시연_영상_AdobeExpress](https://user-images.githubusercontent.com/105952597/182052000-08b521b0-df2a-40c2-9b6c-54340d53f924.gif)
 
 
 ### **Cart**
