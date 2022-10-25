@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { CONFIG_URL } from '../../config';
 import './Login.scss';
@@ -34,7 +34,7 @@ function Login() {
 
   // 체크 여부에 따라 데이터와 화면을 변경해 줍니다.
 
-  const onCheckedBox = () => {
+  const onCheckedBox = useCallback(() => {
     if (isAutoLoginChecked === false) {
       setIsAutoLoginChecked(true);
       isChecked.current = true;
@@ -43,7 +43,7 @@ function Login() {
       isChecked.current = false;
       localStorage.removeItem('UserId');
     }
-  };
+  }, [isAutoLoginChecked]);
 
   // 서버에게 데이터를 POST
   const postLogin = async () => {
@@ -87,10 +87,13 @@ function Login() {
   };
 
   // 유효성 검사
-  const onHandleInput = e => {
-    const { name, value } = e.target;
-    setInputValue({ ...inputValue, [name]: value });
-  };
+  const onHandleInput = useCallback(
+    e => {
+      const { name, value } = e.target;
+      setInputValue({ ...inputValue, [name]: value });
+    },
+    [inputValue]
+  );
 
   const idRegExp = /^[A-Za-z0-9]{4,12}$/;
   const passwordRegExp =
