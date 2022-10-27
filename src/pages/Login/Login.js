@@ -1,14 +1,18 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { CONFIG_URL } from '../../config';
 import './Login.scss';
+
+import { loginChecked, loginUnChecked } from '../../reducers/user';
 
 function Login() {
   const [inputValue, setInputValue] = useState({
     id: '',
     password: '',
   });
-  const [isAutoLoginChecked, setIsAutoLoginChecked] = useState(false);
+  const { isCheckbox } = useSelector(state => state.user);
+  const dispatch = useDispatch();
 
   const isChecked = useRef(false);
   const navigate = useNavigate();
@@ -26,7 +30,7 @@ function Login() {
   useEffect(() => {
     if (localStorage.getItem('UserId')) {
       isChecked.current = true;
-      setIsAutoLoginChecked(true);
+      dispatch(loginChecked());
     }
     // 다음 isChecked 에 의해 화면 아이디 렌더링 여부를 결정합니다.
     isInputValueTrue();
@@ -35,11 +39,11 @@ function Login() {
   // 체크 여부에 따라 데이터와 화면을 변경해 줍니다.
 
   const onCheckedBox = () => {
-    if (isAutoLoginChecked === false) {
-      setIsAutoLoginChecked(true);
+    if (isCheckbox === false) {
+      dispatch(loginChecked());
       isChecked.current = true;
     } else {
-      setIsAutoLoginChecked(false);
+      dispatch(loginUnChecked());
       isChecked.current = false;
       localStorage.removeItem('UserId');
     }
@@ -66,7 +70,7 @@ function Login() {
         break;
       case 'LOGIN SUCCESS':
         localStorage.setItem('Token', result.ACCESS_TOKEN);
-        if (isAutoLoginChecked === true) {
+        if (isCheckbox === true) {
           // 체크가 되어있다면
           localStorage.setItem('UserId', inputValue.id); // 아이디 저장을 위해 localStorage 에 저장
         }
@@ -142,7 +146,7 @@ function Login() {
                 <div className="idKeepingContainer">
                   <i
                     className={
-                      isAutoLoginChecked
+                      isCheckbox
                         ? `bx bxs-check-square bx-sm `
                         : `bx bx-check-square bx-sm `
                     }
